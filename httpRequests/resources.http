@@ -1,0 +1,9 @@
+@url = http://localhost:3000/api/resources
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1hcnJvcXVpbmphdmllcjc1QGdtYWlsLmNvbSIsImlhdCI6MTY5NzMwOTY1NywiZXhwIjoxNjk3Mzk2MDU3fQ.3A1NmyvPVRQ21tzV3E2TnFITbftHpYZlsPCXf1sL8FE
+
+GET {{url}}/protected
+Authorization: Bearer {{token}}
+
+###
+GET {{url}}/public
+ 
